@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+    $scores = array(
+        array(12,2,42),
+        array(2,42,52),
+        array(14,36,4)
+    );
+
+    echo "kyla: " .$scores[0][0]." + ".$scores[0][1]. " + " .$scores[0][2]. " = ".  array_sum($scores[0]) ."<br>";
+    echo "danielle: " .$scores[1][0]." + ".$scores[1][1]. " + " .$scores[1][2]. " = ".  array_sum($scores[1])."<br>";
+    echo "sheila: " .$scores[2][0]." + ".$scores[2][1]. " + " .$scores[2][2]. " = ".  array_sum($scores[2]) ."<br>";
+    ?>
+</body>
+</html>
